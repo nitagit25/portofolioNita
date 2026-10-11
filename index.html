@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Digital - Robotics Programmer & Embedded Systems Developer. Mahasiswa D4 Teknik Komputer PENS.">
+  <title>🌸 Robotics Programmer Portfolio | Cute Pastel & Purple Tech</title>
+  
+  <!-- Google Fonts: Quicksand (Bulat & Lucu) + JetBrains Mono (Teknis) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Cute Sparkles & Glows -->
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+  <div class="glow-orb glow-pink" aria-hidden="true"></div>
+  <div class="glow-orb glow-purple" aria-hidden="true"></div>
+  
+  <!-- Floating Kawaii Tech Badges & Stars -->
+  <div class="floating-sparkles" aria-hidden="true">
+    <span class="sparkle s1">✨</span>
+    <span class="sparkle s2">🌸</span>
+    <span class="sparkle s3">💖</span>
+    <span class="sparkle s4">⭐</span>
+    <span class="sparkle s5">💜</span>
+    <span class="sparkle s6">✨</span>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-mascot">🤖</span>
+        <span class="brand-name">ROBOTICS<span class="brand-heart">♥</span>GIRL</span>
+        <span class="brand-badge">cute tech</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home 🌸</a></li>
+          <li><a href="#about" class="nav-link">About 🎀</a></li>
+          <li><a href="#skills" class="nav-link">Skills ⚡</a></li>
+          <li><a href="#featured-projects" class="nav-link">Featured 🤖</a></li>
+          <li><a href="#other-projects" class="nav-link">Projects 🧩</a></li>
+          <li><a href="#education" class="nav-link">Edu 🎓</a></li>
+          <li><a href="#contact" class="nav-link">Contact 💌</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge hero-badge">
+            <span class="blinking-heart">💖</span>
+            <span>Mahasiswa D4 Teknik Komputer • PENS</span>
+          </div>
+
+          <h1 class="hero-title">
+            Robotics Programmer &amp; <br>
+            <span class="highlight-pink">Embedded Systems</span> <span class="highlight-purple">Developer</span>
+          </h1>
+
+          <p class="hero-tagline">
+            <em>"Bridging hardware control and software logic to build reliable autonomous mobile robots." ✨</em>
+          </p>
+
+          <p class="hero-description">
+            Berfokus pada pemrograman logika kendali mikrokontroler (ESP32, Arduino) berbasis C/C++, integrasi sensor Time-of-Flight (I2C) &amp; optik, serta aktuasi motor DC untuk menghasilkan sistem robot bergerak yang teruji secara deterministik.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#featured-projects" class="btn btn-primary">
+              <span>🚀</span> Lihat Featured Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>💌</span> Hubungi Saya
+            </a>
+            <a href="#about" class="btn btn-outline" id="cvBtn">
+              <span>📄</span> Resume / CV
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-num">3+ 🤖</span>
+              <span class="metric-label">Mobile Robot Projects</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num">C / C++ ⚡</span>
+              <span class="metric-label">Core Logic Control</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-num">FPGA 💜</span>
+              <span class="metric-label">VHDL Digital Hardware</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CUTE INTERACTIVE ROBOT MASCOT & TERMINAL -->
+        <div class="hero-visual">
+          <!-- Animated Kawaii Robot Avatar -->
+          <div class="cute-robot-avatar" title="Halo! Aku asisten robot imutmu!">
+            <div class="robot-antenna">
+              <div class="antenna-bulb"></div>
+            </div>
+            <div class="robot-head">
+              <div class="robot-ears left"></div>
+              <div class="robot-face">
+                <div class="robot-eyes">
+                  <div class="eye"><div class="pupil"></div></div>
+                  <div class="eye"><div class="pupil"></div></div>
+                </div>
+                <div class="robot-blush">
+                  <span class="blush"></span>
+                  <span class="blush"></span>
+                </div>
+                <div class="robot-mouth"></div>
+              </div>
+              <div class="robot-ears right"></div>
+            </div>
+            <div class="robot-speech-bubble">
+              <span>Bip-bup! Siap memprogram robot! 🌸</span>
+            </div>
+          </div>
+
+          <!-- Code Window with Cute Pastels -->
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot pink"></span>
+                <span class="dot purple"></span>
+                <span class="dot yellow"></span>
+              </div>
+              <span class="terminal-title">cute_esp32_robot.cpp 🎀</span>
+            </div>
+            <div class="terminal-body">
+              <pre><code><span class="token-comment">// Inisialisasi Bus I2C &amp; ToF Sensor ✨</span>
+<span class="token-keyword">void</span> <span class="token-func">setup</span>() {
+  Wire.<span class="token-func">begin</span>(I2C_SDA, I2C_SCL);
+  <span class="token-keyword">if</span> (!tofSensor.<span class="token-func">init</span>()) {
+    Serial.<span class="token-func">println</span>(<span class="token-string">"Sensor Fault!"</span>);
+  }
+  motorDriver.<span class="token-func">attachPWM</span>(PWM_CH_A, PWM_CH_B);
+}
+
+<span class="token-comment">// Deterministic Control Loop 🌸</span>
+<span class="token-keyword">void</span> <span class="token-func">loop</span>() {
+  uint16_t range = tofSensor.<span class="token-func">readRangeContinuousMillimeters</span>();
+  <span class="token-keyword">if</span> (range &lt;= SAFE_THRESHOLD_MM) {
+    robotState = STATE_AVOID_OBSTACLE;
+    <span class="token-func">executePivotTurn</span>(DIR_RIGHT, SPEED_REDUCED);
+  } <span class="token-keyword">else</span> {
+    robotState = STATE_MOVE_FORWARD;
+    <span class="token-func">setDifferentialDrive</span>(BASE_PWM, BASE_PWM);
+  }
+}</code></pre>
+            </div>
+            <div class="terminal-footer">
+              <span class="terminal-status"><span class="pulse-icon"></span> Status: Code Hardware-Verified ✨</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">🌸 LATAR BELAKANG &amp; FILOSOFI TEKNIS 🌸</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-text">
+            <h3>Mahasiswa Teknik Komputer yang Berfokus pada Sistem Robotika 🎀</h3>
+            <p>
+              Saya adalah mahasiswa tingkat sarjana terapan (D4) Teknik Komputer di <strong>Politeknik Elektronika Negeri Surabaya (PENS)</strong> dengan minat mendalam pada pemrograman sistem robotika dan integrasi <em>hardware-software</em>. Fokus utama saya terletak pada perancangan logika kendali tingkat mikrokontroler: mulai dari akuisisi data sensor, pemfilteran dan pemrosesan sinyal masukan, hingga pengondisian sinyal kendali PWM untuk menggerakkan aktuator secara presisi.
+            </p>
+            <p>
+              Dalam implementasi praktis, saya menggunakan bahasa <strong>C/C++</strong> pada mikrokontroler <strong>ESP32</strong> dan <strong>Arduino Uno</strong>, serta memanfaatkan <strong>Python</strong> dan simulasi <strong>Proteus / KiCad</strong> untuk verifikasi awal rancangan sirkuit kendali.
+            </p>
+            <p>
+              Saya senang memecahkan tantangan teknis yang berada di perbatasan antara dunia digital dan fisik—seperti mengatasi pembacaan sensor yang bising (<em>noisy</em>), sinkronisasi waktu eksekusi program (<em>timing</em>), dan penanganan galat gerak mekanis melalui logika program yang adaptif. Target karier saya adalah berkontribusi sebagai <strong>Robotics Programmer</strong> atau <strong>Software Engineer</strong> pada pengembangan sistem robot bergerak dan otomasi industri yang mengutamakan keandalan kendali berbasis waktu nyata.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <span class="highlight-icon">🎯</span>
+                <div>
+                  <strong>Target Role</strong>
+                  <p>Robotics Programmer • Software Engineer (Embedded/Robotics)</p>
+                </div>
+              </div>
+              <div class="highlight-box">
+                <span class="highlight-icon">🏛️</span>
+                <div>
+                  <strong>Institusi Pendidikan</strong>
+                  <p>D4 Teknik Komputer — Politeknik Elektronika Negeri Surabaya</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card philosophy">
+            <h3>Prinsip Rekayasa Sistem 💖</h3>
+            <ul class="philosophy-list">
+              <li>
+                <div class="p-num">01</div>
+                <div>
+                  <strong>Integritas Data Sensor</strong>
+                  <p>Logika robot hanya sebaik data yang diterima. Penanganan galat pembacaan sensor dan noise filter adalah prioritas sebelum mengeksekusi manuver gerak.</p>
+                </div>
+              </li>
+              <li>
+                <div class="p-num">02</div>
+                <div>
+                  <strong>Modular State Machines</strong>
+                  <p>Memisahkan state pembacaan, evaluasi kondisi, dan aktuasi motor ke dalam fungsi modular terstruktur agar mudah di-debug pada hardware.</p>
+                </div>
+              </li>
+              <li>
+                <div class="p-num">03</div>
+                <div>
+                  <strong>Verifikasi Hardware Nyata</strong>
+                  <p>Simulasi penting sebagai validasi konsep, namun performa robot sejati dibuktikan dari kestabilan gerak di lintasan fisik dan isolasi derau daya motor.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">⚡ KOMPETENSI &amp; TECH STACK ⚡</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-desc">Kumpulan teknologi yang dikelompokkan berdasarkan bukti proyek nyata dan pemahaman sistem pendukung.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Legend -->
+        <div class="skills-legend">
+          <div class="legend-item">
+            <span class="badge badge-success">🌸 Terbukti Proyek Nyata</span>
+            <span>Telah diimplementasikan pada perangkat keras / simulasi terverifikasi</span>
+          </div>
+          <div class="legend-item">
+            <span class="badge badge-info">💜 Dasar / Pendukung</span>
+            <span>Kemampuan pendukung perancangan logika dan elektronik</span>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>💻</span>
+              </div>
+              <h3 class="skill-card-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">C / C++ 🌸</span>
+                <span class="tag-desc">Logika mikrokontroler, register kendali, modular functions</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">VHDL 💜</span>
+                <span class="tag-desc">Sintesis logika digital FPGA, entity/architecture</span>
+              </div>
+              <div class="skill-tag supporting">
+                <span class="tag-title">Python ✨</span>
+                <span class="tag-desc">Skrip dasar pengolahan data &amp; otomasi logika</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Embedded Systems & MCU -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>⚡</span>
+              </div>
+              <h3 class="skill-card-title">Embedded Systems</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">ESP32 Dev Board 🌸</span>
+                <span class="tag-desc">Bus I2C master, multi-channel PWM hardware, timer interrupt</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Arduino Uno (ATmega328P) 🌸</span>
+                <span class="tag-desc">ADC 10-bit, digital I/O register, UART serial comms</span>
+              </div>
+              <div class="skill-tag supporting">
+                <span class="tag-title">MySQL 💜</span>
+                <span class="tag-desc">Dasar pencatatan data relasional</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Robotics Programming -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>🤖</span>
+              </div>
+              <h3 class="skill-card-title">Robotics Programming</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">Reactive Obstacle Avoidance 🌸</span>
+                <span class="tag-desc">Evaluasi ambang jarak spasial &amp; logika penentuan arah</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Differential Drive Control 🌸</span>
+                <span class="tag-desc">Pengaturan rasio PWM roda kiri &amp; kanan untuk manuver</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Line Tracking Algorithm 🌸</span>
+                <span class="tag-desc">Bitmask pembacaan pola array optik ke respon kemudi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Sensors and Actuators -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>📡</span>
+              </div>
+              <h3 class="skill-card-title">Sensors &amp; Actuators</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">VL53L0X Time-of-Flight 🌸</span>
+                <span class="tag-desc">Laser ToF sensor via I2C protocol, millimeter distance</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">IR Photodiode Array 🌸</span>
+                <span class="tag-desc">Deteksi kontras lintasan reflektif dengan kalibrasi komparator</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Motor Driver H-Bridge 🌸</span>
+                <span class="tag-desc">L298N/sejenis, modulasi frekuensi PWM &amp; directional pins</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Digital Systems & FPGA -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>🧩</span>
+              </div>
+              <h3 class="skill-card-title">Digital Systems &amp; FPGA</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">Xilinx Spartan-3 FPGA 💜</span>
+                <span class="tag-desc">Sintesis hardware deskriptif pada software Xilinx ISE</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Pin Mapping &amp; Verification 💜</span>
+                <span class="tag-desc">Konfigurasi file UCF, integrasi switch masukan &amp; LED bar</span>
+              </div>
+              <div class="skill-tag supporting">
+                <span class="tag-title">Digital Logic Design ✨</span>
+                <span class="tag-desc">Rangkaian sekuensial, kombinasional, pewaktuan clock</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Development Tools -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <span>🛠️</span>
+              </div>
+              <h3 class="skill-card-title">Development &amp; Lab Tools</h3>
+            </div>
+            <div class="skill-tag-group">
+              <div class="skill-tag proven">
+                <span class="tag-title">VS Code &amp; Arduino IDE 🌸</span>
+                <span class="tag-desc">Editor penulisan program mikrokontroler dan debugging</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Proteus &amp; KiCad 💜</span>
+                <span class="tag-desc">Simulasi rangkaian mikrokontroler &amp; skematik PCB dasar</span>
+              </div>
+              <div class="skill-tag proven">
+                <span class="tag-title">Git &amp; GitHub 🌸</span>
+                <span class="tag-desc">Version control kode sumber proyek</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FEATURED PROJECTS SECTION -->
+    <section class="section featured-section" id="featured-projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">🤖 PROYEK ROBOTIKA UTAMA 🤖</span>
+          <h2 class="section-title">Featured Robotics Projects</h2>
+          <p class="section-desc">Dokumentasi komprehensif implementasi logika kendali, arsitektur hardware, dan proses pengujian pada robot bergerak.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="featured-projects-list">
+
+          <!-- PROJECT 1: ROBOT NAVIGASI VL53L0X -->
+          <article class="project-card featured-card" id="proj-1">
+            <div class="project-header-bar">
+              <div class="project-badge-group">
+                <span class="badge badge-accent">Featured Project #1 🌸</span>
+                <span class="badge badge-tech">ESP32</span>
+                <span class="badge badge-tech">VL53L0X ToF (I2C)</span>
+                <span class="badge badge-tech">C / C++</span>
+              </div>
+              <span class="project-date">Embedded Robotics ✨</span>
+            </div>
+
+            <div class="project-content-grid">
+              <div class="project-main-info">
+                <h3 class="project-title">Robot Navigasi Sensor Jarak Berbasis ESP32 &amp; Sensor Laser ToF VL53L0X</h3>
+                
+                <p class="project-overview">
+                  Sistem mobile robot beroda dua yang memproses data jarak spasial secara <em>real-time</em> menggunakan protokol komunikasi I2C dari sensor laser Time-of-Flight VL53L0X untuk menentukan keputusan navigasi manuver menghindar rintangan.
+                </p>
+
+                <div class="info-block">
+                  <h4 class="block-title">Problem or Objective 💡</h4>
+                  <p>Sensor ultrasonik konvensional rentan terhadap pantulan sudut miring dan distorsi material lunak. Proyek ini bertujuan mengintegrasikan sensor laser Time-of-Flight VL53L0X yang memiliki presisi tinggi pada ESP32, lalu memetakan data jaraknya ke logika kendali PWM motor DC untuk navigasi penghindaran benturan secara deterministik.</p>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">System Architecture &amp; Hardware ⚙️</h4>
+                  <div class="architecture-pills">
+                    <span class="arch-pill"><strong>Sensor:</strong> VL53L0X ToF (I2C Bus: SDA/SCL)</span>
+                    <span class="arch-pill"><strong>Controller:</strong> ESP32 DevKit V1 (3.3V Logic)</span>
+                    <span class="arch-pill"><strong>Driver:</strong> Dual H-Bridge Motor Driver</span>
+                    <span class="arch-pill"><strong>Aktuator:</strong> 2x DC Gearbox Motor + Caster</span>
+                    <span class="arch-pill"><strong>Power:</strong> Li-ion Battery Pack</span>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">Programming Logic &amp; Integration 💻</h4>
+                  <ul class="technical-points">
+                    <li><strong>Akuisisi I2C:</strong> Menginisialisasi komunikasi I2C pada clock 400kHz dengan polling kontinu nilai range dalam satuan milimeter.</li>
+                    <li><strong>Threshold Decision:</strong> Jika jarak terdeteksi &gt; ambang aman, sistem menjaga duty-cycle PWM maju lurus. Jika jarak &le; batas kritis, sistem mengaktifkan rutinitas pivot manuver (satu roda mundur, satu roda maju) hingga area bebas rintangan kembali tercapai.</li>
+                    <li><strong>Error Handling:</strong> Menambahkan verifikasi status data I2C untuk mencegah robot 'macet' apabila sensor mengalami timeout atau pembacaan out-of-range.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-sidebar-info">
+                <div class="spec-card">
+                  <h4>Kontribusi Pribadi (My Role) 🎀</h4>
+                  <p>Bertanggung jawab penuh atas penulisan firmware kendali C/C++, konfigurasi bus I2C pada ESP32, implementasi logika evaluasi jarak, kalibrasi sinyal PWM motor driver, dan debugging kestabilan komunikasi serial.</p>
+                </div>
+
+                <div class="spec-card">
+                  <h4>Hasil &amp; Pengujian (Testing &amp; Results) ✨</h4>
+                  <ul class="spec-list">
+                    <li><strong>Hasil Uji:</strong> Robot berhasil mendeteksi objek padat pada jarak ambang uji dan mengeksekusi belokan tanpa tabrakan fisik pada rentang kecepatan rendah-menengah.</li>
+                    <li><strong>Kendala:</strong> Drop tegangan sesaat saat motor mulai menyala (*inrush current*) sempat mereset modul I2C sensor.</li>
+                    <li><strong>Solusi:</strong> Memasang kapasitor decoupling pada jalur 3.3V dan memastikan jalur daya motor terisolasi dari rel daya ESP32.</li>
+                  </ul>
+                </div>
+
+                <div class="project-actions">
+                  <a href="javascript:void(0)" class="btn btn-sm btn-outline btn-disabled" title="Repositori akan segera diunggah">
+                    GitHub: [Belum diisi]
+                  </a>
+                  <span class="demo-tag">📹 Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: ROBOT SOCCER -->
+          <article class="project-card featured-card" id="proj-2">
+            <div class="project-header-bar">
+              <div class="project-badge-group">
+                <span class="badge badge-accent">Featured Project #2 💜</span>
+                <span class="badge badge-tech">Microcontroller</span>
+                <span class="badge badge-tech">High-Torque DC Motors</span>
+                <span class="badge badge-tech">C / C++</span>
+              </div>
+              <span class="project-date">Dynamic Mobile Robotics ✨</span>
+            </div>
+
+            <div class="project-content-grid">
+              <div class="project-main-info">
+                <h3 class="project-title">Perancangan Logika Gerak dan Kendali Robot Soccer</h3>
+                
+                <p class="project-overview">
+                  Pengembangan sistem penggerak robot beroda dinamis yang dirancang untuk bermanuver aktif di arena lapangan sepak bola robot dengan kestabilan traksi dan kecepatan reaksi tinggi.
+                </p>
+
+                <div class="info-block">
+                  <h4 class="block-title">Problem or Objective 💡</h4>
+                  <p>Membangun platform robotik bergerak cepat yang mampu merespons instruksi arah gerak tanpa kehilangan orientasi atau slip berlebih saat akselerasi dan deselerasi mendadak di permukaan karpet lapangan.</p>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">System Architecture &amp; Hardware ⚙️</h4>
+                  <div class="architecture-pills">
+                    <span class="arch-pill"><strong>Controller:</strong> Microcontroller Board (Arduino / ESP32)</span>
+                    <span class="arch-pill"><strong>Power Drive:</strong> High-Current H-Bridge Motor Driver</span>
+                    <span class="arch-pill"><strong>Aktuator:</strong> High-RPM Metal Gearbox DC Motors</span>
+                    <span class="arch-pill"><strong>Sasis:</strong> Rigid Lightweight Chassis</span>
+                    <span class="arch-pill"><strong>Catu Daya:</strong> Multi-cell High Discharge LiPo</span>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">Programming Logic &amp; State Control 💻</h4>
+                  <ul class="technical-points">
+                    <li><strong>State Machine Navigasi:</strong> Mengatur mode operasional (Idle, Fast Sprint, Angular Adjustment / Pusingan, Deceleration Halt).</li>
+                    <li><strong>Diferensial Kecepatan:</strong> Mengkalkulasi distribusi rasio PWM motor kanan dan kiri untuk mencegah ban tergelincir saat melakukan manuver tajam.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-sidebar-info">
+                <div class="spec-card">
+                  <h4>Kontribusi Pribadi (My Role) 🎀</h4>
+                  <p>[Belum diisi - Contoh: Fokus pada penulisan logika pemetaan kecepatan motor via C/C++, pengujian respon manuver roda pada test bench, dan integrasi modul driver daya tinggi].</p>
+                </div>
+
+                <div class="spec-card">
+                  <h4>Hasil &amp; Pengujian (Testing &amp; Results) ✨</h4>
+                  <ul class="spec-list">
+                    <li><strong>Hasil Uji:</strong> Robot mampu mengeksekusi manuver akselerasi dan rotasi sesuai parameter logika yang diprogram.</li>
+                    <li><strong>Kendala:</strong> Arus puncak motor sempat menyebabkan reset mikrokontroler (*brownout reset*).</li>
+                    <li><strong>Solusi:</strong> Pemisahan catu daya regulator logika dari rel daya motor driver serta penambahan filter kapasitif.</li>
+                  </ul>
+                </div>
+
+                <div class="project-actions">
+                  <a href="javascript:void(0)" class="btn btn-sm btn-outline btn-disabled">
+                    GitHub: [Belum diisi]
+                  </a>
+                  <span class="demo-tag">📹 Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: ROBOT LINE TRACER -->
+          <article class="project-card featured-card" id="proj-3">
+            <div class="project-header-bar">
+              <div class="project-badge-group">
+                <span class="badge badge-accent">Featured Project #3 🌸</span>
+                <span class="badge badge-tech">IR Sensor Array</span>
+                <span class="badge badge-tech">ATmega / Arduino</span>
+                <span class="badge badge-tech">PWM Steering</span>
+              </div>
+              <span class="project-date">Autonomous Line Follower ✨</span>
+            </div>
+
+            <div class="project-content-grid">
+              <div class="project-main-info">
+                <h3 class="project-title">Robot Pengikut Lintasan Garis Berbasis Pembacaan Sensor Optik</h3>
+                
+                <p class="project-overview">
+                  Mobile robot otonom beroda dua yang secara adaptif membaca kontras garis pandu permukaan menggunakan barisan sensor inframerah dan melakukan koreksi kemudi melalui modulasi PWM motor secara kontinu.
+                </p>
+
+                <div class="info-block">
+                  <h4 class="block-title">Problem or Objective 💡</h4>
+                  <p>Membangun sistem kendali kemudi tertutup (*closed-loop corrective steering*) yang mampu merespons tikungan lintasan tanpa terlempar keluar dari garis akibat inersia mekanik robot.</p>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">System Architecture &amp; Hardware ⚙️</h4>
+                  <div class="architecture-pills">
+                    <span class="arch-pill"><strong>Sensor:</strong> Array Fotodiode &amp; Komparator Op-Amp</span>
+                    <span class="arch-pill"><strong>MCU:</strong> Arduino Uno (ATmega328P)</span>
+                    <span class="arch-pill"><strong>Driver:</strong> L298N Dual H-Bridge</span>
+                    <span class="arch-pill"><strong>Motor:</strong> 2x DC Motor 6V with Rubber Tires</span>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <h4 class="block-title">Programming Logic &amp; Decision Matrix 💻</h4>
+                  <ul class="technical-points">
+                    <li><strong>Bitmasking Sensor:</strong> Memetakan sinyal logika sensor biner (misal `0b010` = lurus, `0b100` = belok tajam kiri, `0b001` = belok tajam kanan).</li>
+                    <li><strong>Differential PWM Tuning:</strong> Menghitung perbedaan duty-cycle motor kiri dan motor kanan untuk menghasilkan radius putar yang proporsional dengan kelengkungan tikungan.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="project-sidebar-info">
+                <div class="spec-card">
+                  <h4>Kontribusi Pribadi (My Role) 🎀</h4>
+                  <p>Perakitan dan kalibrasi trimpot ambang tegangan sensor garis, penulisan program kendali arah di Arduino IDE, penentuan tabel logika keputusan, serta pengujian stabilitas di berbagai kecepatan PWM.</p>
+                </div>
+
+                <div class="spec-card">
+                  <h4>Hasil &amp; Pengujian (Testing &amp; Results) ✨</h4>
+                  <ul class="spec-list">
+                    <li><strong>Hasil Uji:</strong> Robot berhasil melintasi jalur garis berkelok secara stabil pada kecepatan uji yang telah dikalibrasi.</li>
+                    <li><strong>Kendala:</strong> Terjadi osilasi (robot bergoyang ke kiri-kanan) saat memasuki trek lurus berkecepatan tinggi.</li>
+                    <li><strong>Solusi:</strong> Memperkecil deviasi diferensial PWM saat hanya sensor tengah yang aktif.</li>
+                  </ul>
+                </div>
+
+                <div class="project-actions">
+                  <a href="javascript:void(0)" class="btn btn-sm btn-outline btn-disabled">
+                    GitHub: [Belum diisi]
+                  </a>
+                  <span class="demo-tag">📹 Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. OTHER TECHNICAL PROJECTS SECTION -->
+    <section class="section other-projects-section" id="other-projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">💜 SISTEM DIGITAL &amp; ELEKTRONIKA PENDUKUNG 💜</span>
+          <h2 class="section-title">Other Technical Projects</h2>
+          <p class="section-desc">Proyek pendukung dalam memahami logika perangkat keras digital (FPGA), instrumentasi pengukuran, dan kestabilan catu daya.</p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="other-projects-grid">
+
+          <!-- OTHER 1: FPGA VHDL -->
+          <div class="other-card">
+            <div class="other-card-top">
+              <span class="other-tag">Digital Logic / Hardware 💜</span>
+              <span class="other-meta">FPGA Spartan-3</span>
+            </div>
+            <h3 class="other-title">Pemrograman FPGA Menggunakan VHDL</h3>
+            <p class="other-desc">
+              Perancangan logika digital tingkat gerbang menggunakan bahasa deskripsi perangkat keras VHDL pada lingkungan Xilinx ISE. Meliputi penulisan modul <em>entity-architecture</em>, sintesis logika, pemetaan pin I/O pada file UCF, serta pengujian fungsi langsung pada board Spartan-3 menggunakan toggle switch dan bar LED.
+            </p>
+            <div class="relevance-box">
+              <span class="relevance-title">Relevansi Robotika 💡</span>
+              <p>Memberikan pemahaman mendasar mengenai eksekusi sirkuit digital paralel dan pewaktuan clock di level silikon.</p>
+            </div>
+            <div class="card-footer-tech">
+              <span>VHDL</span> • <span>Xilinx ISE</span> • <span>Spartan-3</span>
+            </div>
+          </div>
+
+          <!-- OTHER 2: VOLTMETER DIGITAL -->
+          <div class="other-card">
+            <div class="other-card-top">
+              <span class="other-tag">Instrumentation / ADC 🌸</span>
+              <span class="other-meta">Microcontroller ADC</span>
+            </div>
+            <h3 class="other-title">Perancangan Alat Ukur Voltmeter Digital</h3>
+            <p class="other-desc">
+              Pembuatan modul instrumentasi pengukur tegangan DC berbasis pembacaan Analog-to-Digital Converter (ADC). Mengimplementasikan formula penskalaan matematis dari sirkuit pembagi tegangan (<em>voltage divider</em>) serta peredaman noise pembacaan untuk ditampilkan secara stabil pada display digital.
+            </p>
+            <div class="relevance-box">
+              <span class="relevance-title">Relevansi Robotika 💡</span>
+              <p>Mendasari perancangan modul <em>battery voltage monitoring</em> untuk memproteksi baterai LiPo robot dari bahaya over-discharge.</p>
+            </div>
+            <div class="card-footer-tech">
+              <span>C / C++</span> • <span>ADC 10-bit</span> • <span>Proteus</span>
+            </div>
+          </div>
+
+          <!-- OTHER 3: REGULATED POWER SUPPLY -->
+          <div class="other-card">
+            <div class="other-card-top">
+              <span class="other-tag">Hardware / Power Electronics ⚡</span>
+              <span class="other-meta">Linear Regulation</span>
+            </div>
+            <h3 class="other-title">Rangkaian Catu Daya Teregulasi (Power Supply)</h3>
+            <p class="other-desc">
+              Perancangan dan perakitan modul catu daya linier untuk menghasilkan tegangan DC stabil dan bersih dari ripple AC. Melibatkan pemilihan transformator, penyearah dioda bridge, kapasitor reservoir filter, serta IC regulator tegangan untuk kebutuhan suplai sirkuit mikrokontroler.
+            </p>
+            <div class="relevance-box">
+              <span class="relevance-title">Relevansi Robotika 💡</span>
+              <p>Menjamin ketersediaan daya bersih pada subsistem kendali robot guna mencegah reset mikrokontroler akibat noise motor.</p>
+            </div>
+            <div class="card-footer-tech">
+              <span>KiCad</span> • <span>Linear Regulators</span> • <span>Hardware</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. EXPERIENCE & ACTIVITIES SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">🎀 PENGALAMAN &amp; AKTIVITAS 🎀</span>
+          <h2 class="section-title">Academic &amp; Technical Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot">💖</div>
+            <div class="timeline-content">
+              <span class="timeline-date">Mahasiswa Aktif 🌸</span>
+              <h3 class="timeline-title">Praktikum Laboratorium Terstruktur &amp; Proyek Mandiri</h3>
+              <span class="timeline-place">Politeknik Elektronika Negeri Surabaya (PENS)</span>
+              <p class="timeline-text">
+                Mengembangkan kemandirian dalam perancangan logika, wiring perangkat keras, integrasi bus I2C/SPI/UART, dan debugging program langsung pada mikrokontroler di laboratorium Teknik Komputer. Berfokus pada pemecahan masalah kendali gerak robot bergerak dan sirkuit pendukung.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">🎓 LATAR BELAKANG PENDIDIKAN 🎓</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <div class="edu-logo-badge">
+              <span>🎓</span>
+            </div>
+            <div class="edu-title-group">
+              <h3>D4 Teknik Komputer</h3>
+              <p class="edu-institution">Politeknik Elektronika Negeri Surabaya (PENS)</p>
+            </div>
+            <div class="edu-status-badge">
+              <span class="badge badge-success">🌸 Mahasiswa Aktif</span>
+            </div>
+          </div>
+
+          <div class="edu-body">
+            <p><strong>Fokus Bidang &amp; Relevansi Kurikulum:</strong></p>
+            <ul class="edu-list">
+              <li>Pemrograman Sistem Tertanam (Embedded Systems) berbasis C/C++</li>
+              <li>Perancangan Logika Digital &amp; Arsitektur Komputer berbasis VHDL/FPGA</li>
+              <li>Sensorika, Pengondisi Sinyal Analog, Instrumentasi, dan Aktuasi</li>
+              <li>Jaringan Komputer, Algoritma Pemrograman, dan Debugging Hardware-Software</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT & FOOTER SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-container">
+        <div class="section-header">
+          <span class="section-subtitle">💌 MARI BERKOMUNIKASI 💌</span>
+          <h2 class="section-title">Hubungi Saya</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-prompt">
+            Saya terbuka untuk kesempatan kerja magang, posisi <em>entry-level</em> <strong>Robotics Programmer</strong> / <strong>Embedded Software Engineer</strong>, maupun kolaborasi teknis seputar proyek sistem robot bergerak. 🌸✨
+          </p>
+
+          <div class="contact-links-grid">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <span>💌</span>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Email Profesional</span>
+                <span class="contact-val" id="emailVal">[Belum diisi - email@student.pens.ac.id]</span>
+              </div>
+              <button class="btn btn-copy" id="copyEmailBtn" title="Salin Email">
+                <span>📋</span> Salin
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <span>💻</span>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">GitHub Profile</span>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-val link">[Belum diisi - github.com/username]</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <span>💼</span>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-val link">[Belum diisi - linkedin.com/in/username]</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <span>📍</span>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Lokasi Kampus</span>
+                <span class="contact-val">Surabaya, Jawa Timur, Indonesia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© 2026 Robotics Programmer Portfolio • Made with 💖 &amp; ☕ in PENS Surabaya.</p>
+      <a href="#home" class="back-to-top" aria-label="Kembali ke atas">
+        <span>🌸</span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Element -->
+  <div class="toast" id="toastNotification">Email berhasil disalin ke clipboard! 💖</div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
